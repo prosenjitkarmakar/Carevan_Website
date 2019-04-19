@@ -1,0 +1,2232 @@
+/************* Google Fonts *****************/
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+/************* Custom SpartanMB Font ****************/
+@font-face{
+  font-family: 'SpartanMB';
+  src: url('fonts/SpartanMB-Bold.eot') format('eot'),
+  url('fonts/SpartanMB-Bold.otf') format('opentype');
+} 
+@font-face{
+  font-family: 'SpartanMB';
+  src: url('fonts/SpartanMB-Thin.eot') format('eot'),
+  url('fonts/SpartanMB-Thin.otf') format('opentype');
+}
+body{
+  font-family: 'SpartanMB', sans-serif;
+  font-family: 'Muli', sans-serif;
+}
+.container-fluid{
+  padding: 0px;
+}
+iframe{
+  margin-bottom: -10px;
+  width: 100%;
+  height: 450px;
+}
+/*********** Header Section start ******************/
+.topbar{
+  background: #cc1010;
+  padding: 30px 10px;
+  position: relative;
+}
+.topbar .item{
+  position: relative;
+  z-index: 16;
+}
+.topbar .item .nav{
+
+}
+.topbar .item .nav .nav-item{
+  margin-right: 10px;
+  display: grid;
+  align-items: center;
+}
+.topbar .item .nav .nav-item i{
+  font-size: 25px;
+  color: #CA1F26;
+}
+.topbar .item .nav .nav-item p{
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.topbar .item .nav .nav-item span{
+  font-size: 14px;
+  color: #6c6464;
+  opacity: 0.9;
+}
+.topbar .btn-custom{
+  background: blue;
+  border-radius: 0px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: table-cell;
+  font-weight: 700;
+  letter-spacing: 1px;
+  outline: none;
+  transition: 0.3s ease all;
+}
+.topbar .btn-custom:hover{
+  background: transparent;
+  border: 2px solid blue;
+  color: black;
+  outline: none;
+}
+.topbar-right-bg{
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: -20px;
+  left: 460px;
+  right: 0;
+  z-index: 15;
+}
+.menu-bar{
+  background: #05223A;
+}
+.menu-bar .nav-link{
+  padding: 50px 20px 25px 10px;
+}
+
+.nav i{
+  color: #afa9a9;
+  transition: 0.3s all ease;
+}
+.nav i:hover{
+  color: white;
+}
+.menu-bar .navbar{
+  padding: 0px;
+}
+.menu-bar .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 5rem;
+  padding-left: 0rem;
+}
+.menu-bar .navbar-nav .nav-link{
+  color: #afa9a9;
+  font-size: 14px;
+  transition: 0.3s all ease;
+}
+.menu-bar .navbar-nav .nav-link:hover{
+  color: white;
+}
+.menu-bar .navbar-nav .nav-item.active .nav-link{
+  color: white;
+}
+.menu-bar .right-menu .dropdown:hover .dropdown-content{
+  z-index: 1000;
+  position: absolute;
+} 
+.menu-bar .right-menu .dropdown-content{
+  position: absolute;
+  top: 99px;
+  left: -5px;
+  background: #05223A;
+  z-index: -1;
+  transition: 0.4s ease all;
+}
+.menu-bar .right-menu .dropdown-content .dropdown-item{
+  padding: 10px 30px;
+  color: #afa9a9 ;
+  font-size: 14px;
+  transition: 0.3s ease all;
+}
+.menu-bar .right-menu .dropdown-content .dropdown-item:hover{
+  background-color: white;
+  color: black;
+}
+.home-two-header-section{
+  background-color: #fff;
+}
+.home-two-header-section .logo{
+  margin-left: 35px;
+}
+.home-two-header-section .navbar{
+  padding: 0px;
+}
+.home-two-header-section .nav-link{
+  padding: 0px;
+  margin-right: 30px;
+  color: gray;
+  font-weight: 600;
+}
+.home-two-header-section .navbar-nav .nav-item.active .nav-link{
+  color: #cc1010;
+}
+.home-two-header-section .navbar-nav .nav-link:hover{
+  color: #cc1010 ;
+}
+.home-two-header-section .menu .dropdown:hover .dropdown-content{
+  z-index: 1000;
+  position: absolute;
+} 
+.home-two-header-section .menu .dropdown-content{
+  position: absolute;
+  top: 57px;
+  left: -5px;
+  background: #cc1010;
+  z-index: -1;
+  transition: 0.4s ease all;
+}
+.home-two-header-section .menu .dropdown-content .dropdown-item{
+  padding: 13px 30px;
+  color: white ;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s ease all;
+}
+.home-two-header-section .menu .dropdown-content .dropdown-item:hover{
+  background-color: white;
+  color: black;
+}
+
+.home-two-header-section .phone{
+  margin-left: 110px;
+}
+.home-two-header-section .nav-item p{
+  margin: 0px;
+  font-weight: 600;
+}
+.home-two-header-section .nav-item span{
+  opacity: 0.6;
+  font-weight: 600;
+}
+.home-two-header-section .nav-item i{
+  color: #cc1010;
+  transition: 0.3s all ease;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.home-two-header-section .nav-item i:hover{
+  color: #cc1010;
+}
+.home-two-header-section .search-box{
+  width: 100px;
+  height: 90px;
+  background: #0b5fa4;
+  margin-bottom: 0px;
+  margin-left: 26px;
+}
+.home-two-header-section .search-box .search-area{
+  width: 0px;
+  height: 0px;
+  border: 0px;
+  outline: none; 
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s all ease;
+}
+.home-two-header-section .search-box:hover .search-area{
+  width: 102px;
+  height: 40px;
+  background-color: white;
+  top: 30%;
+  border: 2px solid #0b5fa4;
+}
+.home-two-header-section .search-box:hover i{
+   left: 80%;
+   top: 75%;
+   font-size: 20px;
+}
+.home-two-header-section .search-box i{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  transition: 0.3s ease all;
+  color: white;
+}
+.home-two-header-section .btn-custom{
+  color: white;
+  background-color: #cc1010;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 37px 78px;
+  border: 0px;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  transition: 0.5s ease all;
+  font-weight: 700;
+}
+.home-two-header-section .btn-custom:hover{
+  background-color: black;
+}
+/*********** Header Section End ******************/
+
+
+
+/********* Banner Section Start  ********/
+.banner-section{
+  background: url("../images/banner-img.png") no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+}
+.banner-section p{
+  color: #dadada;
+  border: 2px solid #dadada;
+  max-width: 300px;
+  margin: auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+}
+.banner-section h1 {
+  font-size: 60px;
+  font-weight: 600;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.banner-section .btn-custom{
+  background: #cc1010;
+  color: #dadada;
+  padding: 15px 30px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  transition: 0.3s all ease;
+  outline: none;
+}
+.banner-section .btn-custom:hover{
+  background: transparent;
+  border: 2px solid #cc1010;
+  color: white;
+  outline: none;
+}
+.home-two-banner-section{
+  background: url("../images/home-two-banner-img.png") no-repeat;
+  background-size: cover;
+}
+.home-two-banner-section .provide-best-card{
+  background: #CA1F26;
+  padding: 100px;
+  margin: 120px 0px;
+}
+.home-two-banner-section .provide-best-card h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+}
+.home-two-banner-section .provide-best-card .btn-custom{
+  background: #05223A;
+  padding: 15px 30px;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 2px solid #05223A;
+}
+.home-two-banner-section .provide-best-card .btn-custom:hover{
+  border: 2px solid #05223A;
+  background-color: transparent;
+}
+.home-two-caravan-workshop-bg{
+  background-color: #F3F5F9;
+}
+.home-two-caravan-workshop-bg .caravan-workshop-img{
+  margin-top: 57px;
+}
+.home-two-caravan-workshop-bg .custom-modification-card{
+  background-color: #FFFFFF;
+}
+.home-two-caravan-workshop-bg .custom-modification-card .card-body p{
+  color: #7c848a;
+}
+.home-two-caravan-workshop-bg .custom-modification-card .card-body h5{
+  color: #05223a;
+}
+.free-quote-section{
+  padding: 150px 0px;
+  background-color: #CA1F26;
+}
+.free-quote-section .left-content h2{
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.5;
+}
+.free-quote-section .left-content .call-us{
+  padding: 20px 30px;
+  background: #ffffff;
+  max-width: 330px;
+  margin: 0 auto;
+  text-align: center;
+  border: 0px;
+  margin-top: 40px;
+}
+.free-quote-section .btn-submit{
+  display: block;
+  margin: 0 auto;
+}
+.free-quote-section .heading{
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 23;
+}
+.free-quote-section .heading img{
+  margin-bottom: 10px;
+}
+.free-quote-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.free-quote-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 200;
+}
+.free-quote-section form{
+  position: relative;
+  z-index: 24;
+}
+.free-quote-right-bg{
+  background-color: white;
+  position: absolute;
+  top: -927px;
+  left: 470px;
+  bottom: -170px;
+  right: -372px;
+  z-index: 22;
+}
+.home-two-slide-section{
+  background-color: #05223A;
+  padding: 110px 0px;
+}
+/********* Banner Section End  ********/
+
+
+
+/********* About Section start  ********/
+.about-section{
+  margin-top: 100px;
+  position: relative;
+}
+.about-section .heading{
+
+}
+.about-section .heading img{
+  margin-bottom: 10px;
+}
+.about-section .heading p {
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.about-section .heading h1 {
+  font-size: 55px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  max-width: 850px;
+  font-weight: 300;
+}
+.about-section .img-side{
+
+}
+.about-section .img-side img{
+  max-width: 100%!important;
+  position: relative;
+  z-index: 19;
+}
+.about-section .content-side{
+  
+}
+.about-section .content-side p {
+  margin-bottom: 40px;
+  max-width: 90%;
+  color: #AFAFAF;
+}
+.about-section .carevan-repair{
+  position: relative;
+  z-index: 18;
+  top: 100%;
+}
+.about-section .carevan-repair img{
+  margin-bottom: 15px;
+  font-size: -18px;
+}
+.about-section .carevan-repair h1{
+  color: whitesmoke;
+  font-size: 36px;
+}
+.about-section .carevan-repair p{
+  margin-top: -8px;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 600;
+}
+.about-section-right-bg{
+  background-color: #CA1F26;
+  position: absolute;
+  top: 610px;
+  bottom: -130px;
+  left: 460px;
+  right: 0;
+  z-index: 17;
+}
+.about-us-section{
+  padding: 100px 0px;
+  background-color: #F3F5F9;
+}
+.about-us-section .heading{
+
+}
+.about-us-section .heading img{
+  margin-bottom: 10px;
+}
+.about-us-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.about-us-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.about-us-caravan-repair-section{
+  padding: 100px 0px;
+}
+.caravan-repair-detail p{
+  max-width: 882px;
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+  margin-top: 50px;
+}
+.question-answere-section{
+  padding: 100px 0px;
+  background-color: #F3F5F9;
+}
+.question-answere-section .heading img{
+  margin-bottom: 10px;
+}
+.question-answere-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.question-answere-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.question-answere-section .accordion{
+  background-color: white;
+  padding: 20px 25px;
+  position: relative;
+}
+.question-answere-section .accordion:after{
+  content: "-";
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+}
+.question-answere-section .accordion h4{
+  font-size: 18px;
+}
+.question-answere-section .accordion .answere{
+  margin-top: 20px;
+  color: #808080d1;
+  font-size: 14px;
+}
+.regular-repair-section{
+  background-color: #F3F5F9;
+  min-height: 100vh;
+}
+.regular-repair-section .regular-repair-content{
+  margin-top: 235px;
+  margin-bottom: 80px;
+}
+.regular-repair-section .regular-repair-content p{
+  text-align: justify;
+  opacity: 0.8;
+}
+.regular-repair-section .regular-repair-img{
+  margin-top: 235px;
+  margin-bottom: 80px;
+}
+.regular-repair-section .progress-content{
+  position: relative;
+  margin-top: 73px;
+}
+.regular-repair-section .progress-content h6{
+  position: absolute;
+  top: -28px;
+  left: 0px;
+}
+.regular-repair-section .progress-content span{
+  position: absolute;
+  top: -28px;
+  right: 0px;
+}
+.progress{
+  height: 7px;
+  background-color: #e3e3e3;
+  border-radius: 0px;
+}
+.repair .progress-bar{
+  width: 99%;
+  background-color: #cc1010;
+}
+.servicing .progress-bar{
+  width: 62%;
+  background-color: #cc1010;
+}
+.parts .progress-bar{
+  width: 30%;
+  background-color: #cc1010;
+}
+.caravan-workshop-section{
+  padding: 100px 0px;
+  position: relative;
+}
+.caravan-workshop-section .heading img{
+  margin-bottom: 10px;
+}
+.caravan-workshop-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.caravan-workshop-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 200;
+}
+.caravan-workshop-section .caravan-workshop-img{
+
+}
+.caravan-workshop-section .box-one{
+  width: 27px;
+  height: 27px;
+  background-color: #cc1010;
+  box-shadow: 0px 0px 0px 4px #ed0a0a3b;
+  position: absolute;
+  bottom: 175px;
+  left: 68px;
+}
+.caravan-workshop-section .box-two{
+  width: 27px;
+  height: 27px;
+  background-color: #cc1010;
+  box-shadow: 0px 0px 0px 4px #ed0a0a3b;
+  position: absolute;
+  bottom: 130px;
+  left: 480px;
+}
+.caravan-workshop-section .box-three{
+  width: 27px;
+  height: 27px;
+  background-color: #cc1010;
+  box-shadow: 0px 0px 0px 4px #ed0a0a3b;
+  position: absolute;
+  bottom: 305px;
+  left: 620px;
+}
+.caravan-workshop-section .box-four{
+  width: 27px;
+  height: 27px;
+  background-color: #cc1010;
+  box-shadow: 0px 0px 0px 4px #ed0a0a3b;
+  position: absolute;
+  top: 73px;
+  right: 105px;
+}
+.caravan-workshop-section .box-five{
+  width: 27px;
+  height: 27px;
+  background-color: #cc1010;
+  box-shadow: 0px 0px 0px 4px #ed0a0a3b;
+  position: absolute;
+  bottom: 150px;
+  right: 235px;
+}
+.custom-modification-card{
+  background-color: #cc1010;
+  padding: 40px;
+  position: absolute;
+  top: -555px;
+  right: 18px;
+  left: 86px;
+}
+.custom-modification-card .card-body{
+
+}
+.custom-modification-card .card-body img{
+  margin-bottom: 25px;
+}
+.custom-modification-card .card-body h5{
+  margin-bottom: 25px;
+  color: #ffffffd6;
+  font-size: 18px;
+  font-weight: 600;
+}
+.custom-modification-card .card-body p{
+  font-size: 14px;
+  color: #ffffffe0;
+  line-height: 1.7;
+  font-weight: 600;
+}
+/********* About Section End  ********/
+
+
+
+/********* who we are section start  ********/
+.who-we-are-section{
+  padding: 120px 0px;
+}
+.who-we-are-section .left-img .top-img{
+  position: relative;
+  max-width: 96%;
+}
+.who-we-are-section .left-img .youtube-img{
+  position: absolute;
+  bottom: -1px;
+  right: 36px;
+  max-width: 28%;
+}
+.who-we-are-section .heading img{
+  margin-bottom: 15px;
+}
+.who-we-are-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.who-we-are-section .heading h1{
+  font-size: 60px;
+  margin-top: -10px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+.who-we-are-section .bottom-para{
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 55px;
+}
+
+/********* who we are section end  ********/
+
+
+
+/*********  Our Services Section start  ********/
+.services-section{
+  background-color: #F3F5F9;
+  min-height: 80vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.services-section .heading img{
+  margin-bottom: 10px;
+}
+.services-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.services-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.services-one-heading-section{
+  background-color: #F3F5F9;
+  padding: 100px 0px;
+}
+.services-one-heading-section .heading img{
+  margin-bottom: 10px;
+}
+.services-one-heading-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.services-one-heading-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+/*********  Our Services Section End  ********/
+
+
+
+/********* Services item Section start  ********/
+.services-item-section{
+  background-color: white;
+  min-height: 40vh;
+}
+.services-item-section .general-repairs{
+
+}
+.services-item-section .item .card{
+  border-radius: 0px;
+  margin-top: -235px;
+  border: 0px;
+}
+.services-item-section .item .card-img-top{
+  border-radius: 0px;
+}
+.services-item-section .item .card-body{
+  margin-left: 15px;
+  margin-top: -15px;
+  background: white;
+}
+.services-item-section .item .card-body .card-title{
+  margin: 30px 0px;
+  font-weight: 700;
+  color: #554f4f;
+}
+.services-item-section .item .card-body .card-text{
+  max-width: 250px;
+  margin: auto;
+  font-weight: 600;
+  color: gray;
+  line-height: 1.7;
+}
+.services-item-section .item .card-body .read-more{
+  margin-top: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 800;
+  color: #ca484ed1;
+}
+.services-one-item-section{
+  padding: 100px 0px;
+}
+.services-one-item-section .point .card{
+  border-radius: 0px;
+  border: 0px;
+  margin-bottom: 30px;
+}
+.services-one-item-section .point .card-img-top{
+  border-radius: 0px;
+}
+.services-one-item-section .point .card-body{
+  margin-left: 15px;
+  margin-top: -15px;
+  background: white;
+}
+.services-one-item-section .point .card-body .card-title{
+  margin: 30px 0px;
+  font-weight: 700;
+  color: #554f4f;
+}
+.services-one-item-section .point .card-body .card-text{
+  max-width: 250px;
+  margin: auto;
+  font-weight: 600;
+  color: gray;
+  line-height: 1.7;
+}
+.services-one-item-section .point .card-body .read-more{
+  margin-top: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 800;
+  color: #ca484ed1;
+}
+.services-one-item-section .installation .card{
+  margin-bottom: 0px;
+}
+.services-one-item-section .maintenance .card{
+  margin-bottom: 0px;
+}
+.services-one-item-section .bodywork-repairs .card{
+  margin-bottom: 0px;
+}
+.our-benefit-section{
+  padding: 100px 0px;
+  background-color: #05223A;
+  position: relative;
+}
+.our-benefit-section .benefits-card{
+  background-color: white;
+  padding: 90px 90px 60px 90px;
+  position: relative;
+  z-index: 11;
+}
+.our-benefit-section .benefits-card .card-body{
+  padding: 0px;
+}
+.our-benefit-section .benefits-card .card-body span{
+  color: #cc1010;
+  margin-right: 30px;
+}
+.our-benefit-section .benefits-card .card-body h6{
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.our-benefit-section .heading{
+  position: relative;
+  z-index: 12;
+  margin-left: 50px;
+}
+.our-benefit-section .heading img{
+  margin-bottom: 15px;
+}
+.our-benefit-section .heading p{
+  color: #ffffffb5;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.our-benefit-section .heading h1{
+  font-size: 50px;
+  margin-top: -5px;
+  font-weight: 100;
+  color: #fffffff7;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  max-width: 530px;
+}
+.our-benefit-section .right-img{
+  position: absolute;
+  top: -496px;
+  right: 14px;
+  left: 75px;
+  z-index: 10;
+}
+.what-we-can-section{
+  padding: 100px 0px;
+}
+.what-we-can-section .heading{
+  margin-bottom: 50px;
+}
+.what-we-can-section .heading img{
+  margin-bottom: 10px;
+}
+.what-we-can-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.what-we-can-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+.what-we-can-section .item{
+
+}
+.what-we-can-section .item img{
+  margin-bottom: 30px;
+}
+.what-we-can-section .item h5{
+  font-size: 30px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+.what-we-can-section .item p{
+  color: gray;
+}
+.single-services-heading-section{
+  padding: 100px 0px;
+  background-color: #F3F5F9;
+}
+.single-services-heading-section .heading img{
+  margin-bottom: 10px;
+}
+.single-services-heading-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.single-services-heading-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+.single-services-general-repair-section{
+  padding: 100px 0px;
+}
+.single-services-general-repair-section .general-repair-card{
+  margin-bottom: 60px;
+}
+.single-services-general-repair-section .general-repair-card h4{
+  font-size: 40px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+.single-services-general-repair-section .general-repair-card p{
+  color: #808080b8;
+  margin-top: 25px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.single-services-general-repair-section .general-repair-card .card-body{
+  background: white;
+  margin-top: -15px;
+  position: relative;
+  margin-left: 15px;
+}
+.service-item-and-about{
+  margin-top: 60px;
+}
+.service-item-and-about h4{
+  margin-bottom: 50px;
+  font-size: 30px;
+  opacity: 0.8;
+}
+.service-item-and-about h6{
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #808080eb;
+  font-weight: 600;
+}
+.service-item-and-about h6 span{
+  margin-right: 12px;
+}
+.service-item-and-about span i{
+  color: #cc1010;
+  font-size: 14px;
+}
+.service-item-and-about p{
+  font-size: 18px;
+  margin: 60px 0px;
+  color: #808080eb;
+}
+.all-services-card{
+  background: #F3F5F9;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.all-services-card .card-body{
+
+}
+.all-services-card .card-body h4{
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 20px;
+}
+.all-services-card .card-body h6{
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  opacity: 0.7;
+  transition: 0.3s ease all;
+}
+.all-services-card .card-body h6:hover{
+  color: #cc1010;
+  cursor: pointer;
+}
+.all-services-card .card-body h6 span{
+  margin-left: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.call-us{
+  border: 18px solid #cc1010;
+  padding: 30px 25px;
+}
+.call-us p{
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #cc1010;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+.call-us span{
+  font-size: 40px;
+  opacity: 0.8;
+  font-weight: 300;
+}
+form h4{
+  margin-bottom: 60px;
+  font-size: 30px;
+  opacity: 0.8;
+}
+.single-services-general-repair-section form textarea{
+  min-height: 22vh;
+}
+form .select-year{
+  padding: 28px 40px;
+  background-color: #E7E9EF;
+  border-radius: 0px;
+  border: 0px;
+  -webkit-appearance: button;
+  width: 100%;
+  color: #495057;
+  outline: none;
+  margin-left: 20px;
+}
+form .email-style{
+  margin-left: 20px;
+}
+form .select-model{
+  padding: 28px 40px;
+  background-color: #E7E9EF;
+  border-radius: 0px;
+  border: 0px;
+  -webkit-appearance: button;
+  width: 100%;
+  color: #495057;
+  outline: none;  
+}
+.form-check-inline{
+  width: 110px;
+  height: 80px;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.form-check-inline 
+.form-check-input{
+  margin-right: 15px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.form-check-label{
+  color: gray;
+}
+
+/********* Services item Section End  ********/
+
+
+
+/********* Testimonial Section start  ********/
+.testimonial-section{
+  background: url("../images/testimonial-bg.png") no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.testimonial-section .heading img{
+  margin-bottom: 10px;
+}
+.testimonial-section .heading p{
+  color: #fffbfbd1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.testimonial-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.testimonial-section img{
+  display: inline-block;
+  margin: 0 auto;
+}
+/********* Testimonial Section End  ********/
+
+
+
+/********* Expert Section Start  ********/
+.expert-section{
+  min-height: 75vh;
+  position: relative;
+}
+.expert-section .heading{
+  margin-top: 100px;
+}
+.expert-section .heading img{
+  margin-bottom: 10px;
+}
+.expert-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.expert-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.expert-section .expert{
+  position: absolute;
+  top: 20px;
+  z-index: 25;
+  margin-right: 10px;
+}
+.expert-section .expert .card{
+  border-radius: 0px;
+  border: 0px;
+}
+.expert-section .expert .card .card-header{
+  border-radius: 0px;
+  padding: 0px;
+  border: 0px;
+  background: white;
+  position: relative;
+}
+.expert-section .expert .card .card-header::after{
+  content: "";
+  position: absolute;
+  background-color: #19181842;
+  top: 200px;
+  left: 200px;
+  bottom: 200px;
+  right: 200px;
+  opacity: 0;
+  transition: .6s ease all;
+}
+.expert-section .expert .card .card-header:hover::after{
+  top: 0px;
+  left: 20px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 1;
+}
+.expert-section .expert .card .card-header img{
+  padding-left: 20px;
+}
+.expert-section .card-header .social-menu{
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transition: 0.4s all ease;
+  z-index: -99;
+}
+.expert-section .card-header:hover .social-menu{
+  top: 78%;
+  left: 28%;
+  z-index: 32;
+  position: absolute;
+}
+.expert-section .card-header .social-menu .nav{
+
+}
+.expert-section .card-header .social-menu .nav .nav-link{
+    padding: 5px;
+}
+.expert-section .card-header .social-menu .nav .nav-link i{
+  background: #ffffff40;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  transition: 0.3s all ease;
+}
+.expert-section .card-header .social-menu .nav .nav-link i:hover{
+  background-color: #CA1F26;
+}
+.expert-section .expert .card .card-body{
+  padding: 25px 0px;
+}
+.expert-section .expert .card .card-body h5{
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.expert-section .expert .card .card-body p{
+  font-weight: 600;
+  font-size: 14px;
+}
+/********* Expert Section End  ********/
+
+
+
+/********* Why Choose Section Start  ********/
+.why-choose-section{
+  background-color: #F3F5F9;
+  min-height: 100vh;
+  position: relative;
+}
+.why-choose-section .left-content{
+  margin-top: 263px;
+}
+.why-choose-section .left-content img{
+  margin-bottom: 30px;
+}
+.why-choose-section .left-content h3{
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+.why-choose-section .left-content p{
+  max-width: 183px; 
+  color: #262121a1;
+}
+.why-choose-section .box{
+  margin-top: 263px;
+  max-width: 405px;
+  background: #CA1F26;
+  padding: 42px;
+  margin-left: -20px;
+  position: absolute;
+  z-index: 11;
+}
+.why-choose-section .box p{
+  color: white;
+  opacity: 0.9;
+  font-size: 32px;
+}
+.why-choose-section .right-content{
+  position: absolute;
+  top: 277px;
+  left: 462px;
+  z-index: 10;
+}
+.why-choose-section .right-content img{
+
+}
+/********* Why Choose Section End  ********/
+
+
+
+/********* News Section start  ********/
+.news-section{
+  min-height: 100vh;
+}
+.news-section .heading{
+  margin-top: 100px;
+}
+.news-section .heading img{
+  margin-bottom: 10px;
+}
+.news-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.news-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.news-section .service{
+  margin-bottom: 100px;
+}
+.news-section .service .card{
+  border-radius: 0px;
+  border: 0px;
+}
+.news-section .service .card-img-top{
+  border-radius: 0px;
+}
+.news-section .service .card-body{
+  margin-left: 15px;
+  margin-top: -15px;
+  background: white;
+}
+.news-section .service .card-body .card-title{
+  margin: 30px auto;
+  font-weight: 400;
+  color: #554f4f;
+  font-size: 25px;
+  max-width: 300px;
+}
+.news-section .service .card-body .card-text{
+  max-width: 465px;
+  margin: auto;
+  font-weight: 600;
+  color: gray;
+  line-height: 1.7;
+}
+.news-section .service .card-body .read-more{
+  margin-top: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 800;
+  color: #ca484ed1;
+}
+/* Latest News One Heading Section Start */
+.latest-news-heading-section{
+  padding: 100px 0px;
+  background-color: #F3F5F9;
+}
+
+.latest-news-heading-section .heading img{
+  margin-bottom: 10px;
+}
+.latest-news-heading-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.latest-news-heading-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+}
+/* Latest News One Heading Section End */
+
+/* latest news one post section start */
+.latest-news-post-section{
+  padding: 100px 0px;
+}
+.latest-news-post-section .service{
+  margin-bottom: 20px;
+}
+.latest-news-post-section .service .card{
+  border-radius: 0px;
+  border: 0px;
+  position: relative;
+}
+.latest-news-post-section .service .card .card-header{
+  border-radius: 0px;
+  padding: 0px;
+  position: relative;
+}
+.latest-news-post-section .service .card .card-header .date-year{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  max-width: 92px;
+  min-height: 92px;
+  background: #c00e0e;
+  border: 10px solid white;
+  transition: 0.8s all ease;
+  opacity: 0;
+}
+.latest-news-post-section .service .card:hover .date-year{
+  opacity: 1;
+  z-index: 32;
+}
+.latest-news-post-section .service .card .card-header .date-year p{
+  color: white;
+  font-size: 10px;
+  padding: 12px 18px;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.latest-news-post-section .service .card .card-header::after{
+  content: "";
+  position: absolute;
+  background-color: #19181842;
+  width: 100%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .6s ease all;
+}
+.latest-news-post-section .service .card:hover .card-header::after{
+  height: 100%;
+  opacity: 1;
+}
+.latest-news-post-section .service .card-img-top{
+  border-radius: 0px;
+}
+.latest-news-post-section .service .card-body{
+  margin-left: 15px;
+  margin-top: -15px;
+  background: white;
+  position: relative;
+}
+.latest-news-post-section .service .card-body .card-title{
+  margin: 30px auto;
+  font-weight: 400;
+  color: #554f4f;
+  font-size: 25px;
+  max-width: 300px;
+  transition: 0.3s ease all;
+}
+.latest-news-post-section .service .card:hover .card-title{
+  color: #ca484ef7;
+  cursor: pointer;
+}
+.latest-news-post-section .service .card-body .card-text{
+  max-width: 430px;
+  margin: auto;
+  font-weight: 600;
+  color: gray;
+  line-height: 1.7;
+  font-size: 15px;
+}
+.latest-news-post-section .service .card-body .read-more{
+  margin-top: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 9px;
+  font-weight: 800;
+  color: #ca484ed1;
+  transition: 0.3s ease all;
+  letter-spacing: 1px;
+}
+.latest-news-post-section .service .card:hover .read-more{
+  color: #05223A;
+}
+.latest-news-post-section .motorhome{
+  margin-bottom: 0px;
+}
+.latest-news-post-section .interior{
+  margin-bottom: 0px;
+}
+/* latest news one post section End */
+
+/* latest news two post section start */
+.latest-news-post-section .two .card-body .card-title{
+  margin: 30px auto;
+  font-weight: 400;
+  color: #554f4f;
+  font-size: 25px;
+  max-width: 250px;
+  transition: 0.3s ease all;
+}
+.latest-news-post-section .two{
+  margin-bottom: 30px;
+}
+.latest-news-post-section .motorhome{
+  margin-bottom: 0px;
+}
+.latest-news-post-section .interior{
+  margin-bottom: 0px;
+}
+.latest-news-post-section .models{
+  margin-bottom: 0px;
+}
+.latest-news-post-section .two .card .card-header .date-year{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  max-width: 80px;
+  min-height: 80px;
+  background: #c00e0e;
+  border: 8px solid white;
+  transition: 0.8s all ease;
+  opacity: 0;
+}
+.latest-news-post-section .two .card:hover .date-year{
+  opacity: 1;
+  z-index: 32;
+}
+.latest-news-post-section .two .card .card-header .date-year p{
+  color: white;
+  font-size: 10px;
+  padding: 10px 14px;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+/* latest news two post section End */
+
+/* Single News heading Section Start */
+.single-news-heading-section{
+  padding: 100px 0px;
+  background-color: #F3F5F9;
+}
+
+.single-news-heading-section .heading img{
+  margin-bottom: 10px;
+}
+.single-news-heading-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.single-news-heading-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+}
+/* Single News heading Section End */
+
+/* Single News post Section Start */
+.news-post-section{
+  padding: 100px 0px;
+}
+.news-post-section .custom span {
+  color: #1b1a1ab5;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.news-post-section .custom .admin {
+  margin: 0px 15px 30px 0px;
+  display: inline-block;
+}
+.news-post-section .service .card{
+  border-radius: 0px;
+  border: 0px;
+}
+.news-post-section .service .card .card-header{
+  border-radius: 0px;
+  padding: 0px;
+  position: relative;
+}
+.news-post-section .service .card .card-header::after{
+  content: "";
+  position: absolute;
+  background-color: #19181842;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: .6s ease all;
+}
+.news-post-section .service .card .card-header:hover::after{
+  width: 100%;
+  opacity: 1;
+}
+.news-post-section .service .card-img-top{
+  border-radius: 0px;
+}
+.news-post-section .service .card-body{
+  margin-left: 15px;
+  margin-top: -15px;
+  background: white;
+  text-align: left;
+  padding: 0px 0px 0px 25px;
+  position: relative;
+}
+.news-post-section .service .card-body .card-title{
+  margin: 20px 0px 2px 0px;
+  font-weight: 400;
+  font-size: 28px;
+  transition: 0.3s ease all;
+}
+.news-post-section .service .card-title:hover{
+  color: #cc1010;
+}
+.news-post-section .service .card-body .card-text{
+  margin: auto;
+  font-weight: 600;
+  color: #808080b8;;
+  line-height: 1.9;
+  font-size: 16px;
+}
+.news-post-section .service .card .card-header .date-year{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  max-width: 92px;
+  min-height: 92px;
+  background: #c00e0e;
+  border: 10px solid white;
+  transition: 0.8s all ease;
+  opacity: 0;
+}
+.news-post-section .service .card-header:hover .date-year{
+  opacity: 1;
+  z-index: 32;
+}
+.news-post-section .service .card .card-header .date-year p{
+  color: white;
+  font-size: 10px;
+  padding: 12px 18px;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.carevan-hr{
+  margin: 40px 0px;
+}
+.tag-content .read-more{
+  font-size: 16px;
+  font-weight: 600;
+  color: #ca484ee3;
+}
+.tag-content p{
+  margin: 0px;
+}
+.tag-content .tag{
+  color: #1b1a1ab5;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 3px;
+}
+.news-post-section .social-right-menu .nav-link{
+  padding: 0px 0px 0px 35px;
+  font-size: 16px;
+}
+.news-post-section .social-right-menu .nav-link i:hover{
+  color: black;
+}
+.christine-eve{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.christine-eve .card{
+  border-radius: 0px;
+  border: 0px;
+  background-color: #F3F5F9;
+}
+.christine-eve .card .card-body{
+  clear: both;
+  padding: 50px;
+}
+.christine-eve .card .card-body .card-text{
+  font-size: 15px;
+  font-weight: 600;
+  color: #818286;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  margin: 30px 0px;
+}
+.christine-eve .card .card-body .christines-img{
+  width: 170px;
+  float: left;
+  margin-right: 40px;
+}
+.christine-eve .card .card-body .christines-post{
+  width: 400px;
+  float: left;
+}
+.christine-eve .card .card-body .christines-post h5{
+  font-weight: 700;
+  opacity: 0.8;
+}
+.christine-eve .card .card-body .christines-post .read-more{
+    font-size: 11px;
+    font-weight: 800;
+    color: #818286;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+    transition: 0.3s ease all;
+}
+.christine-eve .card .card-body .christines-post .read-more:hover{
+  color: #ca484ee3;
+}
+.two-comments{
+  font-size: 30px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+.comments{
+  margin-bottom: 20px;
+}
+.comments .card{
+  border-radius: 0px;
+  border: 0px;
+}
+.comments .card .card-body{
+  clear: both;
+  padding: 0px;
+}
+.comments .card .card-body .post .card-title{
+  font-weight: 700;
+  opacity: 0.8;
+  font-size: 18px;
+  margin-top: -2px;
+}
+.comments .card .card-body .post .card-subtitle{
+  color: #d80f0ffa;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.comments .card .card-body .post .card-subtitle .dash{
+  color: #d80f0ffa;
+  margin: 0px 10px;
+}
+.comments .card .card-body .card-text{
+  font-size: 15px;
+  font-weight: 600;
+  color: #818286;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  margin: 30px 0px;
+}
+.comments .card .card-body .image{
+  width: 110px;
+  float: left;
+  margin-right: 30px;
+}
+.comments .card .card-body .post{
+  width: 530px;
+  float: left;
+}
+.comments .card .card-body .post .btn-reply{
+    padding: 18px 30px;
+    font-size: 10px;
+    font-weight: 800;
+    color: #e1e2e7de;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+    transition: 0.3s ease all;
+    background: #05223A;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.comments .card .card-body .post .btn-reply:hover{
+  color: white;
+  background-color: #cc1010;
+}
+.davids-hr{
+  margin-bottom: 70px;
+}
+.jessica-hr{
+  margin-bottom: 50px;
+}
+form .name-style{
+  padding: 40px 40px;
+  background-color: #E7E9EF;
+  border-radius: 0px;
+  border: 0px;
+}
+form .text-area{
+  min-height: 30vh;
+  background: #E7E9EF;
+  padding: 20px 40px 20px 40px;
+  border: 0px;
+  border-radius: 0px;
+}
+form .btn-submit{
+  padding: 22px 40px;
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  transition: 0.3s ease all;
+  background: #CA1F26;
+  border-radius: 0px;
+}
+form .btn-submit:hover{
+  background-color: #05223A;
+}
+.search-box{
+  margin-bottom: 25px; 
+}
+.search-box .form-control{
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 45px 45px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #e7e0e0;
+  background-color: #05223A;
+  border: 0px solid #05223A;
+  border-radius: 0px;
+}
+.latest-post .card{
+  border-radius: 0px;
+  background-color: #F3F5F9;
+  margin-bottom: 25px;
+  border: 0px;
+}
+.latest-post .card .card-body{
+  padding: 45px;
+}
+.latest-post .card .card-body .card-title{
+  font-size: 20px;
+  font-weight: 600;
+} 
+.latest-post .post-hr{
+  margin-top: 102px;
+}
+.latest-post .post-hrb{
+  margin-top: 112px;
+}
+.posts{
+  margin-top: 30px;
+}
+.posts ul{
+  padding-left: 0px;
+  margin: 0px;
+  clear: both;
+}
+.posts ul li{
+  list-style: none;
+}
+.posts ul .post-img{
+  width: 50px;
+  float: left;
+}
+.posts ul .post-content{
+  width: 183px;
+  float: left;
+  margin-left: 15px;
+} 
+.posts ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #5f5858cc;
+  font-weight: 700;
+  transition: 0.3s all ease;
+}
+.posts ul li a:hover{
+  color: #ca484ef7;
+}
+.categories .card{
+  border-radius: 0px;
+  background-color: #F3F5F9;
+  margin-bottom: 25px;
+  border: 0px;
+}
+.categories .card .card-body{
+  padding: 45px;
+}
+.categories .card .card-body .card-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.categorie-list{
+  margin-top: 20px;
+}
+.categorie-list ul{
+  padding-left: 0px;
+  margin: 0px;
+}
+.categorie-list ul li{
+  list-style: none;
+  padding: 0px 0px 15px 0px;
+}
+ 
+.categorie-list ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #5f5858cc;
+  font-weight: 700;
+  transition: 0.3s all ease;
+  position: relative;
+}
+.categorie-list ul li a:hover{
+  color: #ca484ef7;
+}
+.categorie-list ul li a span{
+  position: absolute;
+  top: 0px;
+  left: 240px;
+} 
+.tags .card{
+  border-radius: 0px;
+  background-color: #F3F5F9;
+  margin-bottom: 25px;
+  border: 0px;
+}
+.tags .card .card-body{
+  padding: 45px;
+}
+.tags .card .card-body .card-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.tags .tags-name{
+  margin-top: 20px;
+}
+.tags .tags-name a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #5f5858cc;
+  font-weight: 700;
+  transition: 0.3s all ease;
+}
+.tags .tags-name a:hover{
+  color: #ca484ef7;
+}
+/* Single News post Section End */
+
+/* Single News Slide Section Start */
+.news-slide-section{
+  padding: 110px 0px;
+  background-color: #F3F5F9;
+}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 70%;
+}
+/* Single News Slide Section End */
+/********* News Section End  ********/
+
+
+
+/********* insurance repair section start  ********/
+.insurance-repair-section{
+  min-height: 100vh;
+  background-color: #F3F5F9;
+}
+.insurance-repair-section .heading{
+  margin-top: 100px;
+}
+.insurance-repair-section .heading img{
+  margin-bottom: 10px;
+}
+.insurance-repair-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.insurance-repair-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.insurance-repair-section .step{
+  margin-bottom: 50px;
+}
+.insurance-repair-section .step .card{
+  border-radius: 0px;
+  margin-right: 5px;
+  border: 0px;
+}
+.insurance-repair-section .step .card-body{
+
+}
+.insurance-repair-section .step span{
+  font-size: 80px;
+  font-weight: 100;
+  color: #CA1F26;
+  margin: 30px 0px;
+  display: inline-block;
+}
+.insurance-repair-section .step h6{
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.8;;
+}
+.insurance-repair-section .step p{
+  max-width: 225px;
+  margin: auto;
+  margin-bottom: 60px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+.insurance-repair-section .bottom-content{
+  margin-bottom: 100px;
+}
+.insurance-repair-section .bottom-content p{
+  max-width: 580px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+/********* insurance repair section End  ********/
+
+
+
+/********* Contact Us Section Start ********/
+.contact-us-section{
+  padding: 100px 0px;
+}
+.contact-us-section .card{
+  position: absolute;
+  top: -460px;
+  left: 160px;
+  z-index: 2;
+  background: #CA1F26;
+  padding: 80px;
+  border: 0px;
+  border-radius: 0px;
+  width: 480px;
+  height: auto;
+}
+.contact-us-section .card .card-body{
+  padding: 0px;
+}
+.contact-us-section .card .card-body img{
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-us-section .card .card-body span{
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #ffffffdb;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.contact-us-section .card .card-body h5{
+  font-size: 30px;
+  color: #fffffff0;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.contact-us-section .card .card-body p{
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: #f9f9f9cf;
+  font-weight: 300;
+}
+.contact-us-section .card .card-body h6{
+  color: white;
+  font-size: 21px;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+.contact-us-section .right-img{
+  position: relative;
+}
+.contact-us-form-section{
+  margin: 70px 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.contact-us-form-section .heading{
+  margin-bottom: 50px;
+}
+.contact-us-form-section .heading img{
+  margin-bottom: 10px;
+}
+.contact-us-form-section .heading p{
+  color: #ca484ed1;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.contact-us-form-section .heading h1{
+  font-size: 50px;
+  margin-top: -10px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.contact-us-form-section .btn-submit{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+/********* Contact Us Section End ********/
+
+
+
+/********* footer top section start  ********/
+.footer-top-section{
+  background-color: #CA1F26;
+  padding: 100px 0px;
+  position: relative;
+}
+.footer-top-section .footer-logo img{
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.footer-top-section .footer-logo p{
+  max-width: 180px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+.footer-top-section .list{
+  position: absolute;
+  z-index: 14;
+}
+.footer-top-section .list .nav{
+  display: grid;
+  line-height: 1.1;
+}
+.footer-top-section .list .nav .nav-link{
+  margin-left: -15px;
+  display: inline-block;
+  color: #606060;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-top-section h6{
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer-top-section .contact span{
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #606060;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-top-section .contact li{
+  list-style: none;
+  color: #606060;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.footer-top-section .contact li i{
+  margin-right: 10px;
+  color: #CA1F26;
+}
+.footer-top-section .contact li .fa-envelope{
+  margin-bottom: 5px;
+}
+.footer-right-bg{
+  background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: -20px;
+    left: 460px;
+    right: 0;
+    z-index: 13;
+}
+/********* footer top section end  ********/
+
+
+
+/********* footer section start  ********/
+footer{
+  background: #05223A;
+  padding: 20px 10px;
+}
+footer p{
+  color: #c2bbbbfa;;
+  opacity: 0.8;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/********* footer section end  ********/
